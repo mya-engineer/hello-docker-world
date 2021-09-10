@@ -1,1 +1,0 @@
-print('Hello, Docker-World! Glad to meet you at last!')

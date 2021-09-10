@@ -1,7 +1,11 @@
-FROM python
+FROM node
 
 WORKDIR /app
 
 COPY . .
 
-CMD ["python", "main.py"]
+RUN npm install
+
+EXPOSE 3000
+
+CMD ["node", "app.js"]
